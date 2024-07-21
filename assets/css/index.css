@@ -365,7 +365,7 @@ a{
         border-bottom: 2px solid rgb(137, 133, 133);
         padding: 0 80px;
     }
-    
+
     form  div{
         padding: 10px;
         width: 90%;
@@ -457,7 +457,6 @@ a{
         display: none;
         right: 50%;
         translate: 25%;
-        margin-top: -20px;
         line-height: 3;
         
     }
@@ -735,11 +734,11 @@ a{
     }
     div.email input{
         border-bottom: 2px solid rgb(137, 133, 133);
-        padding: 0 40px;
+        padding: 0 35px;
     }
     div.password input{
         border-bottom: 2px solid rgb(137, 133, 133);
-        padding: 0 40px;
+        padding: 0 35px;
     }
 
     form  div{
