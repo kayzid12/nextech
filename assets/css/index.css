@@ -266,7 +266,7 @@ a{
     }
     
     div.line{
-        margin-top: 50px;
+        margin-top: 70px;
     }
     hr{
         opacity: 0.5;
@@ -397,6 +397,16 @@ a{
     }
     .signup{
         color: rgb(69, 69, 227);
+    }
+
+    div.allproduct{
+        text-align: center;
+        margin-top: 40px;
+    }
+    div.allproduct h2{
+        font-size: 25px;
+        color: rgb(91, 88, 88);
+        letter-spacing: 1.5px;
     }
 
     
@@ -734,11 +744,11 @@ a{
     }
     div.email input{
         border-bottom: 2px solid rgb(137, 133, 133);
-        padding: 0 35px;
+        padding: 0 30px;
     }
     div.password input{
         border-bottom: 2px solid rgb(137, 133, 133);
-        padding: 0 35px;
+        padding: 0 30px;
     }
 
     form  div{
@@ -772,6 +782,17 @@ a{
     }
     .signup{
         color: rgb(69, 69, 227);
+    }
+
+
+    div.allproduct{
+        text-align: center;
+        margin-top: 30px;
+    }
+    div.allproduct h2{
+        font-size: 25px;
+        color: rgb(66, 63, 63);
+        letter-spacing: 1.5px;
     }
 
 
