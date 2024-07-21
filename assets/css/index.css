@@ -46,36 +46,50 @@ a{
         border: none;
         outline: none;
     }
+    div.home{
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+    }
+    div.home:hover a{
+        border-bottom: 1px solid rgb(54, 53, 53);
+    }
     div.search{
         margin-left: 50px;
+    }
+    div.contact{
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+    }
+    div.contact:hover a{
+        border-bottom: 1px solid rgb(54, 53, 53);
     }
     div.cart{
         margin-right: 50px;
     }
     div.shop{
-        transition-property: all;
-        transition-duration: .5s;
-        transition-timing-function: ease;
+        position: relative;
     }
-    div.shop:hover{
-        border-bottom: 1px solid red;
-        line-height: 2px;
+    div.shop ul{
+        width: 200px;
+        background-color: white;
+        position: absolute;
+        list-style-type: none;
+        z-index: 1;
+        padding: 10px 15px;
+        line-height: 1.5;
+        box-shadow: 1px 1px 5px rgb(70, 69, 69);
+        display: none;
     }
-    div.contact{
-        transition-property: all;
-        transition-duration: .5s;
-        transition-timing-function: ease;
-    }
-    div.contact:hover{
-        border-bottom: 1px solid red;
-        line-height: 2px;
+    div.shop:hover ul{
+        display: block;
     }
     div.bars{
         display: none;
     }
 
 
-    
     div.landingpage{
         margin-top: 50px;
         position: relative;
@@ -310,6 +324,7 @@ a{
         font-size: 15px;
     }
 
+
     div.landingpage1{
         display: none;
     }
@@ -317,6 +332,72 @@ a{
         display: none;
     }
 
+    div.login2{
+        width: 400px;
+        height: 500px;
+        background-color: white;
+        box-shadow: 4px 4px 10px rgb(66, 64, 64);
+        position: absolute;
+        left: 50%;
+        translate: -50% -50%;
+        top: 50%;
+        border: 2px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.login1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    div.login1 h2{
+        color: rgb(66, 64, 64);
+        font-size: 30px;
+    }
+    form{
+        margin-top: 50px;
+    }
+    div.email input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 80px;
+    }
+    div.password input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 80px;
+    }
+    
+    form  div{
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 10px 145px;
+    }
+    div.lastlogin{
+        margin: 20px auto;
+        
+    }
+    div.lastlogin h2{
+        font-size: 15px;
+        color: rgb(84, 82, 82);
+        font-weight: lighter;
+        line-height: 2;
+    }
+    div.lastlogin p{
+        font-size: 15px;
+        color: rgb(84, 82, 82);
+        font-weight: lighter;
+        line-height: 2;
+    }
+    .forgot{
+        color: rgb(69, 69, 227);
+    }
+    .signup{
+        color: rgb(69, 69, 227);
+    }
 
     
 }
@@ -342,6 +423,9 @@ a{
     div.search{
         display: none;
     }
+    div.home{
+        display: none;
+    }
     div.shop{
         display: none;
     }
@@ -362,39 +446,37 @@ a{
         font-size: 30px;
         color: rgb(71, 67, 67);
     }
-    div.dropdown{
+    div.bars ul{
         width: 250px;
-        height: 300px;
         background-color: white;
         position: absolute;
+        list-style-type: none;
+        z-index: 1;
+        padding: 10px 15px;
+        box-shadow: 1px 1px 5px rgb(70, 69, 69);
+        display: none;
         right: 50%;
         translate: 25%;
-        z-index: 1;
-        box-shadow: 1px 1px 5px rgb(70, 67, 67);
-        padding: 10px 10px;
-        margin-top: 5px;
-        display: none;
+        margin-top: -20px;
+        line-height: 3;
+        
     }
-    div.bars:hover .dropdown{
+    div.bars a{
+        color: rgb(71, 69, 69);
+        font-size: 18px;
+    }
+    div.bars:hover ul{
         display: block;
     }
-    div.search1{
+    #search{
         margin-top: 20px;
     }
-    div.dropdown a{
-        color: rgb(65, 63, 63);
-        line-height: 3;
-    }
+    
     input{
         border: none;
         outline: none;
     }
     
-
-
-
-
-
 
 
     #cart{
@@ -626,25 +708,72 @@ a{
     }
 
 
+    div.login2{
+        width: 300px;
+        height: 500px;
+        background-color: white;
+        box-shadow: 4px 4px 10px rgb(66, 64, 64);
+        position: absolute;
+        left: 50%;
+        translate: -50% -50%;
+        top: 50%;
+        border: 2px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.login1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    div.login1 h2{
+        color: rgb(66, 64, 64);
+        font-size: 30px;
+    }
+    form{
+        margin-top: 50px;
+    }
+    div.email input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 40px;
+    }
+    div.password input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 40px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    form  div{
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 10px 105px;
+    }
+    div.lastlogin{
+        margin: 20px auto;
+        
+    }
+    div.lastlogin h2{
+        font-size: 15px;
+        color: rgb(84, 82, 82);
+        font-weight: lighter;
+        line-height: 2;
+    }
+    div.lastlogin p{
+        font-size: 15px;
+        color: rgb(84, 82, 82);
+        font-weight: lighter;
+        line-height: 2;
+    }
+    .forgot{
+        color: rgb(69, 69, 227);
+    }
+    .signup{
+        color: rgb(69, 69, 227);
+    }
 
 
 
