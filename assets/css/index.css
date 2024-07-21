@@ -343,8 +343,7 @@ a{
         top: 50%;
         border: 2px;
         border-radius: 20px;
-        display: flex;
-        flex-direction: column;
+        
     }
     div.login1{
         text-align: center;
@@ -377,7 +376,8 @@ a{
         padding: 10px 145px;
     }
     div.lastlogin{
-        margin: 20px auto;
+        margin: 0 auto;
+        text-align: center;
         
     }
     div.lastlogin h2{
@@ -409,7 +409,53 @@ a{
         letter-spacing: 1.5px;
     }
 
+
+    div.contact2{
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        box-shadow: 4px 4px 10px rgb(66, 64, 64);
+        position: absolute;
+        left: 50%;
+        translate: -50% -50%;
+        top: 50%;
+        border: 2px;
+        border-radius: 20px;
+        
+    }
+    div.contact1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    div.contact1 h2{
+        color: rgb(66, 64, 64);
+        font-size: 30px;
+    }
+    form{
+        margin-top: 50px;
+    }
+    div.name1 input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 80px;
+    }
+    div.email2 input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 80px;
+    }
+
+    form  div{
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 10px 145px;
+    }
     
+
+
 }
 
 
@@ -728,8 +774,7 @@ a{
         top: 50%;
         border: 2px;
         border-radius: 20px;
-        display: flex;
-        flex-direction: column;
+        
     }
     div.login1{
         text-align: center;
@@ -759,10 +804,10 @@ a{
         margin-bottom: 20px;
     }
     button{
-        padding: 10px 105px;
+        padding: 10px 30px;
     }
     div.lastlogin{
-        margin: 20px auto;
+        text-align: center;
         
     }
     div.lastlogin h2{
@@ -793,6 +838,50 @@ a{
         font-size: 25px;
         color: rgb(66, 63, 63);
         letter-spacing: 1.5px;
+    }
+
+    div.contact2{
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        box-shadow: 4px 4px 10px rgb(66, 64, 64);
+        position: absolute;
+        left: 50%;
+        translate: -50% -50%;
+        top: 50%;
+        border: 2px;
+        border-radius: 20px;
+        
+    }
+    div.contact1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    div.contact1 h2{
+        color: rgb(66, 64, 64);
+        font-size: 30px;
+    }
+    form{
+        margin-top: 50px;
+    }
+    div.name1 input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 30px;
+    }
+    div.email2 input{
+        border-bottom: 2px solid rgb(137, 133, 133);
+        padding: 0 30px;
+    }
+
+    form  div{
+        padding: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 10px 30px;
     }
 
 
